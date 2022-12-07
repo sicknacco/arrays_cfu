@@ -21,3 +21,6 @@ puts distance[3]
 is_this_correct = [ true , false , true , false]
 # The following is hopefully correct given a Boolean can only be true or false. Should this Array only have 2?
 puts is_this_correct[2]
+
+## Index positions always start at 0 because it is more efficient than starting at 1 over a long time.
+## The first element in an Array is also at the computer's memory location so there is no offset.
