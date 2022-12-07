@@ -24,3 +24,8 @@ puts is_this_correct[2]
 
 ## Index positions always start at 0 because it is more efficient than starting at 1 over a long time.
 ## The first element in an Array is also at the computer's memory location so there is no offset.
+
+## Shuffle
+## You can use shuffle to randomly re-order your array. Could be used for random drawings or contest selections.
+numbers = [ 1 , 2 , 3 , 4 , 5 , 6]
+puts numbers.shuffle
